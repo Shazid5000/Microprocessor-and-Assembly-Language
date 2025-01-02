@@ -1,0 +1,11 @@
+CODE SEGMENT
+     ASSUME CS:CODE,DS:CODE,ES:CODE,SS:CODE
+     ;
+     ORG 1000H
+     MOV AX, 1141H
+     MOV BX, 1111H
+     DIV BX
+     INT 3
+     ;
+CODE ENDS
+     END
